@@ -49,7 +49,7 @@
 
 			</ul>
 		</div>
-		<div class="col-9 col-right">
+		<div class="col-9 col-right col-content">
 			<div class="line">
 				<h3 class="label"> Profile</h3>
 				<p> The two main groups of image types are raster and vector. Raster images like JPEG, TIFF, GIF, BMP, and PNG are composed of pixels and can develop a “blocky” quality as the image is made larger because each pixel becomes larger. Vector images, like CGM and SVG, store lines instead of pixels. Using this method image size can be scaled without losing quality.</p>
