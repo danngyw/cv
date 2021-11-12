@@ -3,3 +3,13 @@
 	top: 30%;
 	left: 0;
 }
+.tool select{
+	display: block;
+	clear: both;
+	padding: 5px;
+}
+.tool ul li{
+	display: block;
+	padding: 5px;
+	margin-bottom: 5px;
+}
