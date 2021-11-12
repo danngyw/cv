@@ -13,7 +13,7 @@
 	}
 ?>
 
-<div class="tool hide" style="display:none;">
+<div class="tool">
 	<ul>
 		<li>
 			Set Font Content Label
