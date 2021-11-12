@@ -1,5 +1,5 @@
 <?php
-define('SITE_URL','http://localhost/cv');
+
 define('IMG_URL','http://localhost/cv/img');
 define('CV_PATH', __FILE__);
 function get_fonts(){

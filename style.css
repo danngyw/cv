@@ -25,13 +25,14 @@
 }
 .container{
 	width: 900px;
-	padding: 40px;
+	padding: 40px 40px 20px 40px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	margin-top: 0px;
+	margin-bottom: 30px;
 }
 .sidebar{
-	height: 900px;
+	min-height: 500px;
 
 }
 ul,p,span,div,label,input{

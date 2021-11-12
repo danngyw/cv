@@ -1,4 +1,7 @@
-<?php require_once('functions.php');?>
+<?php
+require_once('define.php');
+require_once('functions.php');
+?>
 <?php get_header(); ?>
 <div class="container">
 	<div class=" heading">
@@ -77,8 +80,6 @@
 				</div>
 
 			</div>
-
-
 		</div>
 	</div>
 </div>
