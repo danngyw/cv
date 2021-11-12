@@ -1,23 +1,19 @@
 <?php
-	$fonts = get_fonts();
-	$content_font 	= isset($_COOKIE['content_font']) ? $_COOKIE['content_font'] : '';
-	$label_font 	= isset($_COOKIE['label_font']) ? $_COOKIE['label_font'] : '';
+	$fonts 			= get_fonts();
+	$content_font 	= isset($_COOKIE['content_font']) ? $_COOKIE['content_font'] : 'Rubik';
+	$label_font 	= isset($_COOKIE['label_font']) ? $_COOKIE['label_font'] : 'Rubik';
 	$css= '';
 	if($label_font){
 		$label_css  = get_font_define($label_font);
 		$css.=" .col-content .label{ font-family:{$label_css} }";
 	}
-
 	if($content_font){
 		$font_css  = get_font_define($content_font);
-
 		$css.=" .col-content p{ font-family:{$font_css} } ";
-
 	}
-
-
 ?>
-<div class="tool">
+
+<div class="tool hide" style="display:none;">
 	<ul>
 		<li>
 			Set Font Content Label
@@ -41,6 +37,5 @@
 		</li>
 	</ul>
 </div>
-
 <style type="text/css"><?php echo $css;?></style>
 </html>

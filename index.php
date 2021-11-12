@@ -13,7 +13,7 @@ require_once('functions.php');
 				<h1 class="fullname"> Dan Nguyen Gia</h1>
 				<h3 class="job-title"> Senior PHP Developer </h3>
 				<p> +84 916681139 danhoat@gmail.com</p>
-				<p> 523 Do Xuan Hop, P. Phuoc Long B. Ho Chi Minh city</p>
+				<p> 523 Do Xuan Hop, P. Phuoc Long B. Ho Chi Minh City</p>
 			</div>
 		</div>
 	</div>
