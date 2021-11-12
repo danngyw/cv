@@ -1,0 +1,101 @@
+.heading {
+	padding-bottom: 50px;
+}
+.heading .wrap{
+	background-color: #4bfbba;
+	padding: 30px 5px;
+	display: flex;
+}
+.heading img,.avatar{
+	border-radius: 50%;
+	width: 145px;
+}
+.col-avatar{
+	text-align: center;
+}
+.col-right{
+	padding-left: 60px;
+	text-align: justify;
+}
+.job-title{
+	position: relative;
+	top: -8px;
+}
+.sidebar,.content{
+}
+.container{
+	width: 900px;
+	padding: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+.sidebar{
+	height: 900px;
+
+}
+ul,p,span,div,label,input{
+	margin: 0;
+	padding: 0;
+}
+.skills li{
+	display: block;
+	list-style: none;
+	margin-bottom: 13px;
+}
+.rate, .rate span{
+	display: block;
+	float: left;
+	height: 7px;
+}
+.rate{
+	width: 100%;
+	background-color: #dfdfdf;
+}
+.rate span{
+	background-color: green;
+}
+.rate-7{
+	width: 80%;
+}
+.rate-8{
+	width: 80%;
+}
+.rate-9{
+	width: 90%;
+}
+.rate-10{
+	width: 100%;
+}
+.label{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.sidebar ul{
+	margin-bottom: 35px;
+}
+.line{
+	margin-bottom: 30px;
+}
+.line .item{
+	margin-bottom: 10px;
+}
+.sub-label{
+	font-weight: 500;
+	font-size: 15px;
+}
+.col-right .label{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.col-3{
+	width: 28% !important;
+}
+.col-9{
+	width: 72% !important;
+}
+.skills a{
+	color: #000;
+	text-decoration: none;
+}
