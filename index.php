@@ -47,7 +47,7 @@ require_once('functions.php');
 			<ul class="skills">
 				<li>
 					Linkedin
-					<a href="">linkedin.com/dannguyengia</a>
+					<a href="linkedin.com/dannguyengia">linkedin.com/dannguyengia</a>
 				</li>
 
 			</ul>
