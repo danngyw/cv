@@ -4,7 +4,7 @@
 	$label_font 	= isset($_COOKIE['label_font']) ? $_COOKIE['label_font'] : '';
 	$css= '';
 	if($content_font){
-		$font_css  = get_font_define($font_content);
+		$font_css  = get_font_define($content_font);
 		$css .=".col-content p{ font-family:{$font_css} };";
 	}
 	if($label_font){
