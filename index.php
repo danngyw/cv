@@ -17,7 +17,7 @@ require_once('functions.php');
 			</div>
 		</div>
 	</div>
-
+	<div class ="line-split"><span></span><span></span><span></span></div>
 	<div class="row">
 		<div class="col-3 sidebar ">
 			<label class="label"> Skills</label>
