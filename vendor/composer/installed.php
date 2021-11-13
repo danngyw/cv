@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '429fdc14e1b60fa8d90d9473f7e7f9bf52d48b53',
+    'reference' => '859f74db399f7775c802aa3f3403dcc121cf4c52',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '429fdc14e1b60fa8d90d9473f7e7f9bf52d48b53',
+      'reference' => '859f74db399f7775c802aa3f3403dcc121cf4c52',
     ),
     'dimabdc/php-fast-simple-html-dom-parser' => 
     array (

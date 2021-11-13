@@ -1,8 +1,8 @@
 <?php
 require_once('define.php');
-// require_once 'dompdf/autoload.inc.php';
+
 require_once "vendor/autoload.php";
-//use FastSimpleHTMLDom\Document;
+use FastSimpleHTMLDom\Document;
 
 //require 'vendor/autoload.php';
 use Dompdf\Dompdf;
@@ -12,7 +12,7 @@ if( 1 == 1 ){
 	$dompdf = new Dompdf();
 	$type= 1;
 	$url 	= SITE_URL;
-	$url = $site_url =  'https://vnexpress.net/';
+	$url = $site_url =  SITE_URL;
 
 	if($type ==1 ){
 		//$html 	= file_get_contents($url);
@@ -29,7 +29,7 @@ if( 1 == 1 ){
 
 	    $html = new Document(file_get_contents($site_url,false,$context));
 
-		$dompdf->loadHtml($content);
+		$dompdf->loadHtml($html);
 
 	} else if($type == 2) {
 		$opts = array(
