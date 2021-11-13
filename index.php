@@ -80,7 +80,7 @@ require_once('functions.php');
 						<li>Using git to deploy and manage source code.</li>
 						<li>Technical support - work directly with customer via email and help them solve problems.</li>
 					</ul>
-					<p><span class="key-achievement "> key achievement:</span> Understand how a ecommerce site work. FreelanceEngine theme, MicrjobEngine theme</p>
+					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
 					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>
