@@ -52,6 +52,11 @@ require_once('functions.php');
 					Linkedin
 					<a href="https://linkedin.com/dannguyengia">linkedin.com/dannguyengia</a>
 				</li>
+				<li>
+					Github<br />
+					<a href="https://github.com/danngyw">github.com/danngyw</a>
+				</li>
+
 
 			</ul>
 		</div>
@@ -67,7 +72,7 @@ require_once('functions.php');
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li>Core team development on all products( Themes and Plugins)</li>
+						<li>Developer WordPres themes and plugins.</li>
 						<li>Responsible for supporting existing products, developing new features for existing products or new products.</li>
 						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
 						<li>Good understand the Escrow api of PayPal and Stripe.</li>
@@ -75,6 +80,7 @@ require_once('functions.php');
 						<li>Using git to deploy and manage source code.</li>
 						<li>Technical support - work directly with customer via email and help them solve problems.</li>
 					</ul>
+					<p><span class="key-achievement "> key achievement:</span> Understand how a ecommerce site work. FreelanceEngine theme, MicrjobEngine theme</p>
 				</div>
 				<div class="item">
 					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>

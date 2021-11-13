@@ -113,6 +113,10 @@ ul,p,span,div,label,input{
 	font-weight: 500;
 	font-size: 15px;
 }
+.key-achievement{
+	font-weight: 500;
+	font-size: 14px;
+}
 .col-right .label{
 	text-transform: uppercase;
 	font-size: 18px;
