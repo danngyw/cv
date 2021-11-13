@@ -155,3 +155,13 @@ ul,p,span,div,label,input{
 	list-style-type: square;
 
 }
+.col-content ul li::marker {
+}
+.col-content li{
+	font-size:11.5px;
+}
+.col-content ul li span{
+	position: relative;
+	left: -3px;
+	top: 3px;
+}

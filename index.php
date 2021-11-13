@@ -63,7 +63,7 @@ require_once('functions.php');
 		<div class="col-9 col-right col-content">
 			<div class="line">
 				<h3 class="label"> Profile </h3>
-				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment api work and how to implement it. Experience in technical support and can handle almost WordPress issues from customer.</p>
+				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment api work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
 			</div>
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
@@ -72,13 +72,13 @@ require_once('functions.php');
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li>Develop WordPres themes and plugins.</li>
-						<li>Responsible for supporting existing products, developing new features for existing products or new products.</li>
-						<li>Using git to deploy and manage source code.</li>
-						<li>Technical support - work directly with customer via email and help them solve problems.</li>
-						<li>Conduct internal trainings for developers within team</li>
+						<li><span>Develop WordPres themes and plugins.</span></li>
+						<li><span>Responsible for supporting existing products, developing new features for existing products or new products.</span></li>
+						<li><span>Using git to deploy and manage source code.</span></li>
+						<li><span>Technical support - work directly with customer via email and help them solve problems.</span></li>
+						<li><span>Conduct internal trainings for developers within team</span></li>
 					</ul>
-					<p>Tools and technologies : SSH,WordPress,XML,HTML/CSS,PHP & MYSQL, JQUERY,AJAX,Sublime,Photoshop,Boostraps, SASS.</p>
+					<p>Tools and technologies: WordPress,XML,HTML/CSS,PHP & MYSQL, JQUERY,AJAX,Sublime,Photoshop,Boostraps, SASS.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
@@ -86,9 +86,9 @@ require_once('functions.php');
 					<p> Jun 2012 - May 2013</p>
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
-						<li>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS)</li>
-						<li>Convert PSD file to HTML/CSS template.</li>
-						<li>Customize WordPress theme, woocommerce and support customer.</li>
+						<li><span>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS).</span></li>
+						<li><span>Convert PSD file to HTML/CSS template.</li>
+						<li><span>Customize WordPress theme, woocommerce and support customer.</span></li>
 					</ul>
 				</div>
 			</div>
@@ -105,11 +105,11 @@ require_once('functions.php');
 			<div class="line skill-line">
 				<h3 class="label">PHP SKILLS </h3>
 				<ul>
-					<li>Proficiency in OOP with a good understanding of MVC practices</li>
-					<li>Strong knowledge of RESTful Web Services and JSON</li>
-					<li>Excellent PHP & MySQL, JavaScript, Boostrap and SASS skills</li>
-					<li>Good understand the Escrow api of PayPal and Stripe.</li>
-					<li>Experience to implement a payment gateway api(paypal/stripe...) .</li>
+					<li><span>Proficiency in OOP with a good understanding of MVC practices</span></li>
+					<li><span>Strong knowledge of RESTful Web Services and JSON</span></li>
+					<li><span>Excellent PHP & MySQL, JavaScript, Boostrap and SASS skills</span></li>
+					<li><span>Good understand the Escrow api of PayPal and Stripe.</span></li>
+					<li><span>Experience to implement a payment gateway api(paypal/stripe...).</span></li>
 </ul>
 		</div>
 	</div>
