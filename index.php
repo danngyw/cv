@@ -63,7 +63,7 @@ require_once('functions.php');
 		<div class="col-9 col-right col-content">
 			<div class="line">
 				<h3 class="label"> Profile </h3>
-				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment api work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
+				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment API work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
 			</div>
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
@@ -73,12 +73,12 @@ require_once('functions.php');
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
 						<li><span>Develop, maintenance WordPress themes and plugins.</span></li>
-						<li><span>Implement payment gateway for sytem.</span></li>
+						<li><span>Implement payment gateway for system.</span></li>
 						<li><span>Using git to deploy and manage source code.</span></li>
 						<li><span>Technical support - work directly with customer via email and help them solve problems. Customize themes or plugins.</span></li>
-						<li><span>Conduct internal trainings for developers within team.</span></li>
+						<li><span>Conduct internal training for developers within team.</span></li>
 					</ul>
-					<p>Tools and technologies: WordPress, XML, HTML/CSS, PHP & MYSQL, jQuery, Ajax,Sublime,Photoshop, Boostraps, SASS.</p>
+					<p>Tools and technologies: WordPress, XML, HTML/CSS, PHP & MYSQL, jQuery, Ajax,Sublime,Photoshop, Bootstraps, SASS.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
@@ -98,7 +98,7 @@ require_once('functions.php');
 				<div class="item">
 					<label class="sub-label"> HCMUS - Bachelor's degree - Ho Chi Minh City</label>
 					<p> Sep 2009 -  2013</p>
-					<p>Learn programming languages like C/C++/C#/JAVA/ASP.NET and OPP, MCV, algorithms ... Develop simple applications.</p>
+					<p>Learn programming languages like C/C++/C#/JAVA/ASP.NET and OPP, MVC, algorithms ... Develop simple applications.</p>
 				</div>
 
 			</div>
@@ -107,9 +107,9 @@ require_once('functions.php');
 				<ul>
 					<li><span>Proficiency in OOP with a good understanding of MVC practices</span></li>
 					<li><span>Strong knowledge of RESTful Web Services and JSON</span></li>
-					<li><span>Excellent PHP & MySQL, JavaScript, Boostrap and SASS skills</span></li>
+					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and SASS skills</span></li>
 					<li><span>Good to debug and solve PHP/WordPress problems. </span></li>
-					<li><span>Experience to implement a payment gateway(paypal/stripe...),escrow API.</span></li>
+					<li><span>Experience to implement a payment gateway(PayPal/Stripe...),escrow API.</span></li>
 </ul>
 		</div>
 	</div>
