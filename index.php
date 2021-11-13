@@ -81,8 +81,8 @@ require_once('functions.php');
 					<p> Jun 2012 - May 2013</p>
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
+						<li>Convert PSD file to HTML/CSS template.</li>
 						<li>Customize WordPress site for client</li>
-						<li>Convert PSD file to html/css template.</li>
 						<li>Customize woocommerce for small shop.</li>
 						<li>Deploy and support client to solve almost their issues feedback.</li>
 						<li>Good knowledge PHP & MySQL, WordPress, HTML/CSS , Javascript and Ajax.</li>
