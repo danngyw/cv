@@ -27,7 +27,7 @@ if( 1 == 1 ){
 	    //Basically adding headers to the request
 	    $context 	= stream_context_create($opts);
 	    $html 		= file_get_contents($site_url,false,$context);
-
+	    $html 		= file_get_contents($site_url);
 		$dompdf->loadHtml($html);
 
 	} else if($type == 2) {
