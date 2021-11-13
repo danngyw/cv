@@ -9,8 +9,7 @@
 namespace Dompdf\Positioner;
 
 use Dompdf\FrameDecorator\AbstractFrameDecorator;
-use Dompdf\FrameDecorator\Inline as InlineFrameDecorator;
-use Dompdf\FrameDecorator\Block as BlockFrameDecorator;
+use Dompdf\FrameReflower\Inline as InlineFrameReflower;
 use Dompdf\Exception;
 
 /**
@@ -21,62 +20,57 @@ use Dompdf\Exception;
 class Inline extends AbstractPositioner
 {
 
-    function __construct(AbstractFrameDecorator $frame)
+    /**
+     * @param AbstractFrameDecorator $frame
+     * @throws Exception
+     */
+    function position(AbstractFrameDecorator $frame)
     {
-        parent::__construct($frame);
-    }
-
-    //........................................................................
-
-    function position()
-    {
-        /**
-         * Find our nearest block level parent and access its lines property.
-         * @var BlockFrameDecorator
-         */
-        $p = $this->_frame->find_block_parent();
+        // Find our nearest block level parent and access its lines property
+        $p = $frame->find_block_parent();
 
         // Debugging code:
 
-//     Helpers::pre_r("\nPositioning:");
-//     Helpers::pre_r("Me: " . $this->_frame->get_node()->nodeName . " (" . spl_object_hash($this->_frame->get_node()) . ")");
-//     Helpers::pre_r("Parent: " . $p->get_node()->nodeName . " (" . spl_object_hash($p->get_node()) . ")");
+        // Helpers::pre_r("\nPositioning:");
+        // Helpers::pre_r("Me: " . $frame->get_node()->nodeName . " (" . spl_object_hash($frame->get_node()) . ")");
+        // Helpers::pre_r("Parent: " . $p->get_node()->nodeName . " (" . spl_object_hash($p->get_node()) . ")");
 
         // End debugging
 
-        if (!$p)
+        if (!$p) {
             throw new Exception("No block-level parent found.  Not good.");
+        }
 
-        $f = $this->_frame;
-
-        $cb = $f->get_containing_block();
+        $cb = $frame->get_containing_block();
         $line = $p->get_current_line_box();
 
-        // Skip the page break if in a fixed position element
-        $is_fixed = false;
-        while ($f = $f->get_parent()) {
-            if ($f->get_style()->position === "fixed") {
-                $is_fixed = true;
-                break;
-            }
+        if ($frame->is_text_node() || $frame->get_node()->nodeName === "br") {
+            $frame->set_position($cb["x"] + $line->w, $line->y);
+            return;
         }
 
-        $f = $this->_frame;
+        $reflower = $frame->get_reflower();
 
-        if (!$is_fixed && $f->get_parent() &&
-            $f->get_parent() instanceof InlineFrameDecorator &&
-            $f->is_text_node()
-        ) {
+        if ($reflower instanceof InlineFrameReflower) {
+            [$min] = $reflower->get_min_first_line_width();
 
-            $min_max = $f->get_reflower()->get_min_max_width();
-
-            // If the frame doesn't fit in the current line, a line break occurs
-            if ($min_max["min"] > ($cb["w"] - $line->left - $line->w - $line->right)) {
+            // If no parts of the inline frame fit in the current line, it
+            // should break to a new line
+            if ($min > ($cb["w"] - $line->left - $line->w - $line->right)) {
                 $p->add_line();
+                $line = $p->get_current_line_box();
+            }
+        } else {
+            // Atomic inline boxes and replaced inline elements
+            // (inline-block, inline-table, img etc.)
+            $width = $frame->get_margin_width();
+
+            if ($width > ($cb["w"] - $line->left - $line->w - $line->right)) {
+                $p->add_line();
+                $line = $p->get_current_line_box();
             }
         }
 
-        $f->set_position($cb["x"] + $line->w, $line->y);
-
+        $frame->set_position($cb["x"] + $line->w, $line->y);
     }
 }

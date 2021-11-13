@@ -16,19 +16,11 @@ use Dompdf\FrameDecorator\AbstractFrameDecorator;
  * @access  private
  * @package dompdf
  */
-class Block extends AbstractPositioner {
+class Block extends AbstractPositioner
+{
 
-
-    function __construct(AbstractFrameDecorator $frame)
+    function position(AbstractFrameDecorator $frame)
     {
-        parent::__construct($frame);
-    }
-
-    //........................................................................
-
-    function position()
-    {
-        $frame = $this->_frame;
         $style = $frame->get_style();
         $cb = $frame->get_containing_block();
         $p = $frame->find_block_parent();
@@ -40,23 +32,11 @@ class Block extends AbstractPositioner {
                 $p->add_line(true);
             }
             $y = $p->get_current_line_box()->y;
-
         } else {
             $y = $cb["y"];
         }
 
         $x = $cb["x"];
-
-        // Relative positionning
-        if ($style->position === "relative") {
-            $top = $style->length_in_pt($style->top, $cb["h"]);
-            //$right =  $style->length_in_pt($style->right,  $cb["w"]);
-            //$bottom = $style->length_in_pt($style->bottom, $cb["h"]);
-            $left = $style->length_in_pt($style->left, $cb["w"]);
-
-            $x += $left;
-            $y += $top;
-        }
 
         $frame->set_position($x, $y);
     }

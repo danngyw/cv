@@ -1,7 +1,10 @@
 <?php
-
 require_once('define.php');
-require_once 'dompdf/autoload.inc.php';
+// require_once 'dompdf/autoload.inc.php';
+require_once "vendor/autoload.php";
+//use FastSimpleHTMLDom\Document;
+
+//require 'vendor/autoload.php';
 use Dompdf\Dompdf;
 
 //if( isset($_REQUEST['submit_val']) ) {
@@ -9,15 +12,25 @@ if( 1 == 1 ){
 	$dompdf = new Dompdf();
 	$type= 1;
 	$url 	= SITE_URL;
+	$url = $site_url =  'https://vnexpress.net/';
 
 	if($type ==1 ){
-		$html 	= file_get_contents($url);
+		//$html 	= file_get_contents($url);
+		// if(function_exists('curl_init')) {
+		//     $content = http::fetch_content($url);
+		// } else {
+		//     $content = file_get_contents($url);
+		// }
+		//$content  = fetch_url($url);
 
-		// $text = convert_html_to_text($html);
-		// echo '<pre>';
-		// var_dump($text);
-		// echo '</pre>';
-		// die();
+		$opts = array('http'=>array('header' => "User-Agent:MyAgent/1.0\r\n"));
+	    //Basically adding headers to the request
+	    $context = stream_context_create($opts);
+
+	    $html = new Document(file_get_contents($site_url,false,$context));
+
+		$dompdf->loadHtml($content);
+
 	} else if($type == 2) {
 		$opts = array(
 		  	'http'=>array(
@@ -39,7 +52,7 @@ if( 1 == 1 ){
 	    //$dompdf->load_html(ob_get_clean());
 	    $dompdf->render();
 	}
-	//$dompdf->loadHtml($html);
+	//$dompdf->load_html_file($url);
 
 	$dompdf->setPaper('A4', 'landscape');
 	$dompdf->render();
