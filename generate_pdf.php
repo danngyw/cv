@@ -7,7 +7,6 @@ use Dompdf\Dompdf;
 if( 1 == 1 ){
 	$dompdf = new Dompdf();
 	$type= 1;
-	$url 	= SITE_URL;
 	$url = $site_url =  SITE_URL;
 
 	if($type ==1 ){
