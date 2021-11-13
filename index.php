@@ -13,7 +13,7 @@ require_once('functions.php');
 			</div>
 			<div class="col-9 col-right">
 				<h1 class="fullname"> Dan Nguyen Gia</h1>
-				<h3 class="job-title"> Senior PHP Developer </h3>
+				<h3 class="job-title"> Senior PHP/WordPress Developer </h3>
 				<p> +84 916681139 danhoat@gmail.com</p>
 				<p> 523 Do Xuan Hop, P. Phuoc Long B, Ho Chi Minh City</p>
 			</div>
@@ -50,11 +50,11 @@ require_once('functions.php');
 			<ul class="skills">
 				<li>
 					Linkedin
-					<a href="https://linkedin.com/dannguyengia">linkedin.com/dannguyengia</a>
+					<a href="https://linkedin.com/in/dannguyengia/" target="_blank">linkedin.com/dannguyengia</a>
 				</li>
 				<li>
 					Github<br />
-					<a href="https://github.com/danngyw">github.com/danngyw</a>
+					<a href="https://github.com/danngyw/" target="_blank">github.com/danngyw</a>
 				</li>
 
 
@@ -68,18 +68,17 @@ require_once('functions.php');
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
 				<div class="item">
-					<label class="sub-label"> WordPress Developer at EngineThemes - Ho Chi Minh City</label>
+					<label class="sub-label">Senior WordPress Developer at EngineThemes - Ho Chi Minh City</label>
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li>Developer WordPres themes and plugins.</li>
+						<li>Develop WordPres themes and plugins.</li>
 						<li>Responsible for supporting existing products, developing new features for existing products or new products.</li>
-						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
-						<li>Good understand the Escrow api of PayPal and Stripe.</li>
-						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
 						<li>Using git to deploy and manage source code.</li>
 						<li>Technical support - work directly with customer via email and help them solve problems.</li>
+						<li>Conduct internal trainings for developers within team</li>
 					</ul>
+					<p>Tools and technologies : SSH, WordPress, XML,HTML/CSS, PHP, GIT, MYSQL, JQUERY, AJAX , Sublime, Adobe Photoshop, Boostraps, Ajax.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
@@ -87,11 +86,12 @@ require_once('functions.php');
 					<p> Jun 2012 - May 2013</p>
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
+						<li>Experience with Xampp (Linux, Apache, MySQL, PHP)</li>
 						<li>Convert PSD file to HTML/CSS template.</li>
 						<li>Customize WordPress site for client</li>
 						<li>Customize woocommerce for small shop.</li>
 						<li>Deploy and support client to solve almost their feedback.</li>
-						<li>Good knowledge PHP & MySQL, WordPress, HTML/CSS , Javascript and Ajax.</li>
+
 					</ul>
 				</div>
 			</div>
@@ -104,6 +104,15 @@ require_once('functions.php');
 				</div>
 
 			</div>
+			<div class="line skill-line">
+				<h3 class="label">PHP SKILLS </h3>
+				<ul>
+					<li>Proficiency in OOP with a good understanding of MVC practices</li>
+					<li>Strong knowledge of RESTful Web Services and JSON</li>
+					<li>Excellent PHP & MySQL, JavaScript, Boostrap and SASS skills</li>
+					<li>Good understand the Escrow api of PayPal and Stripe.</li>
+					<li>Experience to implement a payment gateway api(paypal/stripe...) .</li>
+</ul>
 		</div>
 	</div>
 </div>

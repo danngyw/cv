@@ -27,7 +27,7 @@ html{
     flex: 0 0 auto;
 }
 .col-right{
-	padding-left: 60px;
+	padding-left: 50px;
 	text-align: justify;
 }
 body, html, .container{
@@ -96,7 +96,7 @@ ul,p,span,div,label,input{
 	width: 100%;
 }
 .label{
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-size: 18px;
 	font-weight: 500;
 }
@@ -104,10 +104,13 @@ ul,p,span,div,label,input{
 	margin-bottom: 35px;
 }
 .line{
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .line .item{
-	margin-bottom: 13px;
+	margin-bottom: 10px;
+}
+.col-content .skill-line ul{
+	margin-left: 15px;
 }
 .sub-label{
 	font-weight: 500;
@@ -146,7 +149,7 @@ ul,p,span,div,label,input{
     top: -25px;
 }
 .col-content ul{
-	margin-left: 40px;
+	margin-left: 33px;
 }
 .col-content ul li{
 	list-style-type: square;
