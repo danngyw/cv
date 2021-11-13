@@ -1,5 +1,6 @@
 <?php
 require_once('define.php');
+define('DOMPDF_ENABLE_CSS_FLOAT ', true);
 require_once "vendor/autoload.php";
 use Dompdf\Dompdf;
 
@@ -24,7 +25,9 @@ if( 1 == 1 ){
 
 	    $html 		= file_get_contents($site_url);
 		$dompdf->loadHtml($html);
-		$dompdf->setPaper('A4', 'landscape');
+		$customPaper = array(0,0,650,860);
+		$dompdf->set_paper($customPaper);
+
 		$dompdf->render();
 		$dompdf->stream("",array("Attachment" => false));
 		exit(0);
@@ -52,7 +55,7 @@ if( 1 == 1 ){
 	}
 	//$dompdf->load_html_file($url);
 
-	$dompdf->setPaper('legal', 'portrait');
+	//$dompdf->setPaper('legal', 'portrait');
 	//* @param string $size 'letter', 'legal', 'A4', etc. {@link Dompdf\Adapter\CPDF::$PAPER_SIZES}
     // * @param string $orientation 'portrait' or 'landscape'
 
