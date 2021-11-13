@@ -93,7 +93,7 @@ require_once('functions.php');
 			<div class="line">
 				<h3 class="label"> Education </h3>
 				<div class="item">
-					<label class="sub-label"> HCMUS - Degree Bachelor - Ho Chi Minh City</label>
+					<label class="sub-label"> HCMUS - Bachelor's degree - Ho Chi Minh City</label>
 					<p> Sep 2009 -  2013</p>
 				</div>
 
