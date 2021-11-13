@@ -6,7 +6,7 @@ require_once('functions.php');
 ?>
 <?php get_header(); ?>
 <div class="container">
-	<div class=" heading" style="background-color: #59a9a0;">
+	<div class=" heading">
 		<div class="wrap">
 			<div class="col-3 col-avatar">
 				<img class="avatar" src="<?php echo IMG_URL;?>/danng.png">
@@ -72,7 +72,7 @@ require_once('functions.php');
 						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
 						<li>Good understand the Escrow api of PayPal and Stripe.</li>
 						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
-						<li>Deploy and manager sourcode on git.</li>
+						<li>Using git to deploy and manage source code.</li>
 						<li>Technical support - work directly with customer via email and help them solve problems.</li>
 					</ul>
 				</div>

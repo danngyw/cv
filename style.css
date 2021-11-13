@@ -30,13 +30,24 @@ html{
 	padding-left: 60px;
 	text-align: justify;
 }
-body{
-	width: 900px;
+body, html, .container{
 	margin: 0 auto;
+	width: 888px;
+}
+.container{
+	padding: 25px 25px 20px 25px;
+	border1: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-right: auto;
+    margin-left: auto;
 }
 .heading {
 	margin-bottom: 50px;
-	background-color: #59a9a0;
+}
+.heading, .rate span{
+	background-color: #56b7ac;
 }
 .heading .wrap{
 	padding: 30px 5px;
@@ -53,17 +64,6 @@ body{
 .job-title{
 	position: relative;
 	top: -8px;
-}
-
-.container{
-	width: 900px;
-	padding: 25px 35px 20px 35px;
-	border1: 1px solid #ccc;
-	border-radius: 5px;
-	margin-top: 0px;
-	margin-bottom: 30px;
-	margin-right: auto;
-    margin-left: auto;
 }
 ul,p,span,div,label,input{
 	margin: 0;
@@ -82,9 +82,6 @@ ul,p,span,div,label,input{
 .rate{
 	width: 100%;
 	background-color: #dfdfdf;
-}
-.rate span{
-	background-color: green;
 }
 .rate-7{
 	width: 80%;
