@@ -1,10 +1,6 @@
 <?php
 require_once('define.php');
-
 require_once "vendor/autoload.php";
-//use FastSimpleHTMLDom\Document;
-
-//require 'vendor/autoload.php';
 use Dompdf\Dompdf;
 
 //if( isset($_REQUEST['submit_val']) ) {
@@ -22,13 +18,17 @@ if( 1 == 1 ){
 		//     $content = file_get_contents($url);
 		// }
 		//$content  = fetch_url($url);
-
-		$opts = array('http'=>array('header' => "User-Agent:MyAgent/1.0\r\n"));
+		//$opts = array('http'=>array('header' => "User-Agent:MyAgent/1.0\r\n"));
 	    //Basically adding headers to the request
-	    $context 	= stream_context_create($opts);
-	    $html 		= file_get_contents($site_url,false,$context);
+	    //$context 	= stream_context_create($opts);
+	    //$html 		= file_get_contents($site_url,false,$context);
+
 	    $html 		= file_get_contents($site_url);
 		$dompdf->loadHtml($html);
+		$dompdf->setPaper('A4', 'landscape');
+		$dompdf->render();
+		$dompdf->stream("",array("Attachment" => false));
+		exit(0);
 
 	} else if($type == 2) {
 		$opts = array(
@@ -55,7 +55,7 @@ if( 1 == 1 ){
 
 	$dompdf->setPaper('A4', 'landscape');
 	$dompdf->render();
-	$dompdf->stream("",array("Attachment" => false));
+	$dompdf->stream("abc.pdf",array("Attachment" => true));
 	exit(0);
 }
 
