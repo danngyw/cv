@@ -72,10 +72,10 @@ require_once('functions.php');
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li><span>Develop WordPres themes and plugins.</span></li>
-						<li><span>Responsible for supporting existing products, developing new features for existing products or new products.</span></li>
+						<li><span>Develop and maintenance WordPress themes and plugins.</span></li>
+						<li><span>Implement payment gateway for sytem.</span></li>
 						<li><span>Using git to deploy and manage source code.</span></li>
-						<li><span>Technical support - work directly with customer via email and help them solve problems.</span></li>
+						<li><span>Technical support - work directly with customer via email and help them solve problems. Customize themes or plugins.</span></li>
 						<li><span>Conduct internal trainings for developers within team.</span></li>
 					</ul>
 					<p>Tools and technologies: WordPress,XML,HTML/CSS,PHP & MYSQL, JQUERY,AJAX,Sublime,Photoshop,Boostraps, SASS.</p>
@@ -108,8 +108,8 @@ require_once('functions.php');
 					<li><span>Proficiency in OOP with a good understanding of MVC practices</span></li>
 					<li><span>Strong knowledge of RESTful Web Services and JSON</span></li>
 					<li><span>Excellent PHP & MySQL, JavaScript, Boostrap and SASS skills</span></li>
-					<li><span>Good understand the Escrow api of PayPal and Stripe.</span></li>
-					<li><span>Experience to implement a payment gateway api(paypal/stripe...).</span></li>
+					<li><span>Good to debug and solve PHP/WordPress problems. </span></li>
+					<li><span>Experience to implement a payment gateway(paypal/stripe...),escrow API.</span></li>
 </ul>
 		</div>
 	</div>
