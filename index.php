@@ -15,7 +15,7 @@ require_once('functions.php');
 				<h1 class="fullname"> Dan Nguyen Gia</h1>
 				<h3 class="job-title"> Senior PHP Developer </h3>
 				<p> +84 916681139 danhoat@gmail.com</p>
-				<p> 523 Do Xuan Hop, P. Phuoc Long B. Ho Chi Minh City</p>
+				<p> 523 Do Xuan Hop, P. Phuoc Long B, Ho Chi Minh City</p>
 			</div>
 		</div>
 	</div>
@@ -68,7 +68,7 @@ require_once('functions.php');
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
 						<li>Core team development on all products( Themes and Plugins)</li>
-						<li>Responsible for supporting existing applications, developing new features for existing themes, and developing new products.</li>
+						<li>Responsible for supporting existing products, developing new features for existing products or new products.</li>
 						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
 						<li>Good understand the Escrow api of PayPal and Stripe.</li>
 						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
@@ -82,7 +82,7 @@ require_once('functions.php');
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
 						<li>Customize WordPress site for client</li>
-						<li>Convert psd file to html/css file.</li>
+						<li>Convert PSD file to html/css file.</li>
 						<li>Customize woocommerce for small shop.</li>
 						<li>Deploy and support client to solve almost their issues feedback.</li>
 						<li>Good knowledge PHP & MySQL, WordPress, HTML/CSS , Javascript and Ajax.</li>

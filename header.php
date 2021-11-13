@@ -7,7 +7,7 @@
         </script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CV Online</title>
+        <title>Danng's CV</title>
         <link href="bootstrap.min.css"  rel="stylesheet" >
 
         <link href="style.css?ver=<?php echo rand();?>" rel="stylesheet" >
