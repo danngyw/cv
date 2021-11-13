@@ -1,3 +1,32 @@
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.col-9 {
+    flex: 0 0 auto;
+}
+.col-right{
+	padding-left: 60px;
+	text-align: justify;
+}
 body{
 	width: 900px;
 	margin: 0 auto;
@@ -17,16 +46,12 @@ body{
 .col-avatar{
 	text-align: center;
 }
-.col-right{
-	padding-left: 60px;
-	text-align: justify;
-}
+
 .job-title{
 	position: relative;
 	top: -8px;
 }
-.sidebar,.content{
-}
+
 .container{
 	width: 900px;
 	padding: 30px 40px 20px 40px;
@@ -34,10 +59,8 @@ body{
 	border-radius: 5px;
 	margin-top: 0px;
 	margin-bottom: 30px;
-}
-.sidebar{
-	min-height: 500px;
-
+	margin-right: auto;
+    margin-left: auto;
 }
 ul,p,span,div,label,input{
 	margin: 0;
