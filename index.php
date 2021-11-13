@@ -24,12 +24,13 @@ require_once('functions.php');
 			<ul class="skills">
 				<li>
 					WordPress
-					<span class="rate"><span class="rate-10"></span></span>
+					<span class="rate"><span class="rate-9"></span></span>
 				</li>
-				<li> PHP <span class="rate"><span class=" rate-9"></span></span></li>
-				<li> CSS<span class="rate"><span class=" rate-9"></span></span></li>
+				<li> PHP & MySQL<span class="rate"><span class=" rate-8"></span></span></li>
+				<li> HTML/CSS<span class="rate"><span class=" rate-8"></span></span></li>
 				<li> Javascript/jQuery<span class="rate"><span class="rate-7"></span></span></li>
 				<li> Git<span class="rate"><span class="rate-7"></span></span></li>
+
 
 			</ul>
 			<label class="label"> Languages</label>
@@ -62,31 +63,34 @@ require_once('functions.php');
 				<div class="item">
 					<label class="sub-label"> WordPress Developer at EngineThemes - Ho Chi Minh City</label>
 					<p> Jun 2013 - Present</p>
-					<p> WordPress Developer xyz Using this method image size can be scaled without losing quality. Raster images like JPEG, TIFF, GIF, BMP, and PNG are composed of pixels and can develop</p>
+					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-
 						<li>Core team development on products(WordPress themes and Plugins)</li>
 						<li>Responsible for supporting existing applications, developing new features for existing themes, and developing new themes/plugins.</li>
 						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
 						<li>Experience in Escrow api of PayPal and Stripe.</li>
 						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
 						<li>Experience working with GIT - Deploy sourcode on git.</li>
-						<li>Technical support - work directy with customer via email and check/fix the problem of customer</li>
+						<li>Technical support - work directly with customer via email and help them solve problems.</li>
 					</ul>
 				</div>
 				<div class="item">
 					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>
 					<p> Jun 2012 - May 2013</p>
-					<p> WordPress Developer xyz Using this method image size can be scaled without losing quality</p>
+					<p> Goscom is a software outsourcing company.</p>
+					<ul>
+						<li>Customize WordPress site for client</li>
+						<li>Deploy and support client to solve almost their issues feedback.</li>
+						<li>Good knowledge WordPress, HTML/CSS , Javascript and Ajax</li>
+					</ul>
 				</div>
 			</div>
 
 			<div class="line">
 				<h3 class="label"> Education </h3>
 				<div class="item">
-					<label class="sub-label"> HCMUS - Degree Bachelor</label>
-					<p> Sep 2009 to 2013</p>
-					<p> WordPress Developer xyz Using this method image size can be scaled without losing quality. Raster images like JPEG, TIFF, GIF, BMP, and PNG are composed of pixels and can develop</p>
+					<label class="sub-label"> HCMUS - Degree Bachelor - Ho Chi Minh City</label>
+					<p> Sep 2009 -  2013</p>
 				</div>
 
 			</div>
