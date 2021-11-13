@@ -32,7 +32,7 @@ html{
 }
 body, html, .container{
 	margin: 0 auto;
-	width: 888px;
+	width: 868px;
 }
 .container{
 	padding: 25px 25px 20px 25px;
@@ -162,7 +162,7 @@ ul,p,span,div,label,input{
 .col-content ul li::marker {
 }
 .col-content li{
-	font-size:11.5px;
+	font-size:11px;
 }
 .col-content ul li span{
 	position: relative;
