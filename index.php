@@ -82,13 +82,13 @@ require_once('functions.php');
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
-					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>
+					<label class="sub-label"> PHP/WordPress Developer at Goscom - Ho Chi Minh City</label>
 					<p> Jun 2012 - May 2013</p>
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
 						<li><span>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS).</span></li>
 						<li><span>Convert PSD file to HTML/CSS template.</li>
-						<li><span>Customize WordPress theme, woocommerce and support customer.</span></li>
+						<li><span>Customize  PHP WordPress/woocommerce and support customer.</span></li>
 					</ul>
 				</div>
 			</div>
