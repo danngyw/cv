@@ -86,12 +86,9 @@ require_once('functions.php');
 					<p> Jun 2012 - May 2013</p>
 					<p> Goscom is a software outsourcing company.</p>
 					<ul>
-						<li>Experience with Xampp (Linux, Apache, MySQL, PHP)</li>
+						<li>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS)</li>
 						<li>Convert PSD file to HTML/CSS template.</li>
-						<li>Customize WordPress site for client</li>
-						<li>Customize woocommerce for small shop.</li>
-						<li>Deploy and support client to solve almost their feedback.</li>
-
+						<li>Customize WordPress theme, woocommerce and support customer.</li>
 					</ul>
 				</div>
 			</div>
