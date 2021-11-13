@@ -97,7 +97,7 @@ require_once('functions.php');
 				<h3 class="label"> Education </h3>
 				<div class="item">
 					<label class="sub-label"> HCMUS - Bachelor's degree - Ho Chi Minh City</label>
-					<p> Sep 2009 -  2013</p>
+					<p> Sep 2009 - 2013</p>
 					<p>Learn programming languages like C/C++/C#/JAVA/ASP.NET and OPP, MVC, algorithms ... Develop simple applications.</p>
 				</div>
 
@@ -105,9 +105,9 @@ require_once('functions.php');
 			<div class="line skill-line">
 				<h3 class="label">PHP SKILLS </h3>
 				<ul>
-					<li><span>Proficiency in OOP with a good understanding of MVC practices</span></li>
-					<li><span>Strong knowledge of RESTful Web Services and JSON</span></li>
-					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and SASS skills</span></li>
+					<li><span>Proficiency in OOP with a good understanding of MVC practices.</span></li>
+					<li><span>Strong knowledge of RESTful Web Services and JSON.</span></li>
+					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and SASS skills.</span></li>
 					<li><span>Good to debug and solve PHP/WordPress problems. </span></li>
 					<li><span>Experience to implement a payment gateway(PayPal/Stripe...),escrow API.</span></li>
 </ul>
