@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 require_once('define.php');
 require_once('functions.php');
 ?>
@@ -65,8 +67,8 @@ require_once('functions.php');
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li>Core team development on products(WordPress themes and Plugins)</li>
-						<li>Responsible for supporting existing applications, developing new features for existing themes, and developing new themes/plugins.</li>
+						<li>Core team development on all products( Themes and Plugins)</li>
+						<li>Responsible for supporting existing applications, developing new features for existing themes, and developing new products.</li>
 						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
 						<li>Experience in Escrow api of PayPal and Stripe.</li>
 						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
@@ -81,7 +83,7 @@ require_once('functions.php');
 					<ul>
 						<li>Customize WordPress site for client</li>
 						<li>Deploy and support client to solve almost their issues feedback.</li>
-						<li>Good knowledge WordPress, HTML/CSS , Javascript and Ajax</li>
+						<li>Good knowledge PHP & MySQL, WordPress, HTML/CSS , Javascript and Ajax</li>
 					</ul>
 				</div>
 			</div>

@@ -1,5 +1,4 @@
 <?php
-
 define('CV_PATH', __FILE__);
 function get_fonts(){
 	$fonts = array(
