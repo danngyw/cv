@@ -98,7 +98,7 @@ require_once('functions.php');
 				<div class="item">
 					<label class="sub-label"> HCMUS - Bachelor's degree - Ho Chi Minh City</label>
 					<p> Sep 2009 -  2013</p>
-					<p>Làm quen với các ngôn ngữ lập trình như C,C++, C#. Tìm hiểu vê OPP, MCV và develop simple application .</p>
+					<p>Làm quen với các ngôn ngữ lập trình như C/C++/C#/ASP.NET. Tìm hiểu vê OPP, MCV và develop simple application .</p>
 				</div>
 
 			</div>
