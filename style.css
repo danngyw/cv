@@ -1,4 +1,7 @@
-
+html{
+	width: 900px;
+	margin: 0 auto;
+}
 .row>* {
     flex-shrink: 0;
     width: 100%;
@@ -32,10 +35,10 @@ body{
 	margin: 0 auto;
 }
 .heading {
-	padding-bottom: 50px;
+	margin-bottom: 50px;
+	background-color: #59a9a0;
 }
 .heading .wrap{
-	background-color: #59a9a0;
 	padding: 30px 5px;
 	display: flex;
 }

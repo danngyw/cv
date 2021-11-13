@@ -9,11 +9,11 @@
 	}
 	if($content_font){
 		$font_css  = get_font_define($content_font);
-		$css.=" .col-content p{ font-family:{$font_css}; font-size:16px; } ";
+		$css.=" .col-content{ font-family:{$font_css}; font-size:16px; }  .col-content li{font-size:15px;} ";
 	}
 
 	if( isset($_SERVER['HTTP_USER_AGENT']) ){
- 		require_once('tool.php');
+ 		// require_once('tool.php');
  	}
  ?>
 <style type="text/css"><?php echo $css;?></style>
