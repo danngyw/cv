@@ -52,7 +52,10 @@ if( 1 == 1 ){
 	}
 	//$dompdf->load_html_file($url);
 
-	$dompdf->setPaper('A4', 'landscape');
+	$dompdf->setPaper('legal', 'portrait');
+	//* @param string $size 'letter', 'legal', 'A4', etc. {@link Dompdf\Adapter\CPDF::$PAPER_SIZES}
+    // * @param string $orientation 'portrait' or 'landscape'
+
 	$dompdf->render();
 	$dompdf->stream("abc.pdf",array("Attachment" => true));
 	exit(0);
