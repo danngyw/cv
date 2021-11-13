@@ -34,7 +34,7 @@ require_once('TCPDF/tcpdf.php');
 	// add a page
 	$pdf->AddPage();
 	$url 	= SITE_URL;
-	$html 	= file_get_contents($url);
+	$html 	= @file_get_contents($url);
 
 
 	$pdf->writeHTML($html, true, false, true, false, '');

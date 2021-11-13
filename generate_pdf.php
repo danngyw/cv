@@ -1,8 +1,8 @@
 <?php
 
-namespace Dompdf;
 require_once('define.php');
 require_once 'dompdf/autoload.inc.php';
+use Dompdf\Dompdf;
 
 //if( isset($_REQUEST['submit_val']) ) {
 if( 1 == 1 ){
@@ -27,11 +27,10 @@ if( 1 == 1 ){
 		  	)
 		);
 		$context 	= stream_context_create($opts);
-		$html 		= @file_get_contents($url, false, $context);
+		$html 		= file_get_contents($url, false, $context);
 	} else {
 
 		$check = $dompdf->loadHtmlFile($url);
-		var_dump($check);
 
 		//ob_start();
 	    //be sure this file exists, and works outside of web context etc.)
