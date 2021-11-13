@@ -118,3 +118,10 @@ ul,p,span,div,label,input{
     position: relative;
     top: -25px;
 }
+.col-content ul{
+	margin-left: 40px;
+}
+.col-content ul li{
+	list-style-type: square;
+
+}

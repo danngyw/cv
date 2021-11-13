@@ -13,3 +13,8 @@
 	padding: 5px;
 	margin-bottom: 5px;
 }
+@media only screen and (max-width: 800px) {
+	.tool{
+		display: none;
+	}
+}

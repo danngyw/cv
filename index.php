@@ -28,8 +28,8 @@ require_once('functions.php');
 				</li>
 				<li> PHP <span class="rate"><span class=" rate-9"></span></span></li>
 				<li> CSS<span class="rate"><span class=" rate-9"></span></span></li>
-				<li> Javascript<span class="rate"><span class="rate-7"></span></span></li>
-				<li> Jquery<span class="rate"><span class="rate-7"></span></span></li>
+				<li> Javascript/jQuery<span class="rate"><span class="rate-7"></span></span></li>
+				<li> Git<span class="rate"><span class="rate-7"></span></span></li>
 
 			</ul>
 			<label class="label"> Languages</label>
@@ -54,19 +54,29 @@ require_once('functions.php');
 		</div>
 		<div class="col-9 col-right col-content">
 			<div class="line">
-				<h3 class="label"> Profile</h3>
-				<p> The two main groups of image types are raster and vector. Raster images like JPEG, TIFF, GIF, BMP, and PNG are composed of pixels and can develop a “blocky” quality as the image is made larger because each pixel becomes larger. Vector images, like CGM and SVG, store lines instead of pixels. Using this method image size can be scaled without losing quality.</p>
+				<h3 class="label"> Profile </h3>
+				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment api work and how to implement it. Experience in technical support and can handle almost WordPress issues from customer.</p>
 			</div>
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
 				<div class="item">
-					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>
-					<p> Jun 2014 to Present</p>
+					<label class="sub-label"> WordPress Developer at EngineThemes - Ho Chi Minh City</label>
+					<p> Jun 2013 - Present</p>
 					<p> WordPress Developer xyz Using this method image size can be scaled without losing quality. Raster images like JPEG, TIFF, GIF, BMP, and PNG are composed of pixels and can develop</p>
+					<ul>
+
+						<li>Core team development on products(WordPress themes and Plugins)</li>
+						<li>Responsible for supporting existing applications, developing new features for existing themes, and developing new themes/plugins.</li>
+						<li>Experience in payment gateway(paypal/stripe/payfast...) api.</li>
+						<li>Experience in Escrow api of PayPal and Stripe.</li>
+						<li>Particularly strong with JavaScript and CSS including Ajax, XML, incremental page loading, etc</li>
+						<li>Experience working with GIT - Deploy sourcode on git.</li>
+						<li>Technical support - work directy with customer via email and check/fix the problem of customer</li>
+					</ul>
 				</div>
 				<div class="item">
 					<label class="sub-label"> WordPress Developer at Goscom - Ho Chi Minh City</label>
-					<p> Jun 2012 to May 2013</p>
+					<p> Jun 2012 - May 2013</p>
 					<p> WordPress Developer xyz Using this method image size can be scaled without losing quality</p>
 				</div>
 			</div>
