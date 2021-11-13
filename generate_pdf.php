@@ -7,7 +7,7 @@ require_once 'dompdf/autoload.inc.php';
 if( 1 == 1 ){
 	$dompdf = new Dompdf();
 	$type= 1;
-	$url 	= "https://mje.thuexephanrang.net/index.html";
+	$url 	= SITE_URL;
 
 	if($type ==1 ){
 		$html 	= file_get_contents($url);

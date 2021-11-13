@@ -1,5 +1,6 @@
-<?ph
-require_once('tcpdf.php');
+<?php
+require_once('define.php');
+require_once('TCPDF/tcpdf.php');
 
 	// create new PDF document
 	$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
@@ -32,19 +33,13 @@ require_once('tcpdf.php');
 
 	// add a page
 	$pdf->AddPage();
+	$url 	= SITE_URL;
+	$html 	= file_get_contents($url);
 
-	$html = '<h4>HTML to PDF Using TCPDF</h4><br><p>by yourblogcoach</p>';
-
-	$pdf->writeHTML($html, true, false, true, false, '');
-
-        // add a page
-	$pdf->AddPage();
-
-	$html = '<h4>Second page</h4>';
 
 	$pdf->writeHTML($html, true, false, true, false, '');
 
-	// reset pointer to the last page
+
 	$pdf->lastPage();
 	//Close and output PDF document
 	$pdf->Output('example.pdf', 'I');
