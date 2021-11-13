@@ -2,7 +2,7 @@
 require_once('define.php');
 
 require_once "vendor/autoload.php";
-use FastSimpleHTMLDom\Document;
+//use FastSimpleHTMLDom\Document;
 
 //require 'vendor/autoload.php';
 use Dompdf\Dompdf;
@@ -25,9 +25,8 @@ if( 1 == 1 ){
 
 		$opts = array('http'=>array('header' => "User-Agent:MyAgent/1.0\r\n"));
 	    //Basically adding headers to the request
-	    $context = stream_context_create($opts);
-
-	    $html = new Document(file_get_contents($site_url,false,$context));
+	    $context 	= stream_context_create($opts);
+	    $html 		= file_get_contents($site_url,false,$context);
 
 		$dompdf->loadHtml($html);
 
