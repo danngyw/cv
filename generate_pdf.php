@@ -1,6 +1,7 @@
 <?php
 
 namespace Dompdf;
+require_once('define.php');
 require_once 'dompdf/autoload.inc.php';
 
 //if( isset($_REQUEST['submit_val']) ) {
