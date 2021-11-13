@@ -50,20 +50,24 @@ body, html, .container{
 	background-color: #56b7ac;
 }
 .heading .wrap{
-	padding: 30px 5px;
+	padding: 25px 5px;
 	display: flex;
 }
 .heading img,.avatar{
 	border-radius: 50%;
-	width: 145px;
+	width: 139px;
 }
 .col-avatar{
 	text-align: center;
 }
-
+h1.fullname{
+	font-size: 2.3rem;
+}
 .job-title{
 	position: relative;
 	top: -8px;
+	margin: 0 0 8px 0;
+	font-size: 1.5rem;
 }
 ul,p,span,div,label,input{
 	margin: 0;
