@@ -76,7 +76,7 @@ require_once('functions.php');
 						<li><span>Responsible for supporting existing products, developing new features for existing products or new products.</span></li>
 						<li><span>Using git to deploy and manage source code.</span></li>
 						<li><span>Technical support - work directly with customer via email and help them solve problems.</span></li>
-						<li><span>Conduct internal trainings for developers within team</span></li>
+						<li><span>Conduct internal trainings for developers within team.</span></li>
 					</ul>
 					<p>Tools and technologies: WordPress,XML,HTML/CSS,PHP & MYSQL, JQUERY,AJAX,Sublime,Photoshop,Boostraps, SASS.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
