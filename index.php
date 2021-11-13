@@ -84,7 +84,7 @@ require_once('functions.php');
 						<li>Convert PSD file to HTML/CSS template.</li>
 						<li>Customize WordPress site for client</li>
 						<li>Customize woocommerce for small shop.</li>
-						<li>Deploy and support client to solve almost their issues feedback.</li>
+						<li>Deploy and support client to solve almost their feedback.</li>
 						<li>Good knowledge PHP & MySQL, WordPress, HTML/CSS , Javascript and Ajax.</li>
 					</ul>
 				</div>
