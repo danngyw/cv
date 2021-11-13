@@ -78,7 +78,7 @@ require_once('functions.php');
 						<li>Technical support - work directly with customer via email and help them solve problems.</li>
 						<li>Conduct internal trainings for developers within team</li>
 					</ul>
-					<p>Tools and technologies : SSH, WordPress, XML,HTML/CSS, PHP, GIT, MYSQL, JQUERY, AJAX , Sublime, Adobe Photoshop, Boostraps, Ajax.</p>
+					<p>Tools and technologies : SSH,WordPress,XML,HTML/CSS,PHP & MYSQL, JQUERY,AJAX,Sublime,Photoshop,Boostraps, SASS.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
 				</div>
 				<div class="item">
@@ -98,7 +98,7 @@ require_once('functions.php');
 				<div class="item">
 					<label class="sub-label"> HCMUS - Bachelor's degree - Ho Chi Minh City</label>
 					<p> Sep 2009 -  2013</p>
-					<p>Learned programing langues such as C/C++/C#/ASP.NET. Tìm hiểu vê OPP, MCV, algorithms ... và develop simple applications.</p>
+					<p>Learn programming languages like C/C++/C#/ASP.NET and OPP, MCV, algorithms ... Develop simple applications.</p>
 				</div>
 
 			</div>
