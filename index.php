@@ -78,7 +78,7 @@ require_once('functions.php');
 						<li><span>Technical support - work directly with customers via email and help them solve problems. Customize themes or plugins.</span></li>
 						<li><span>Conduct internal training for developers within the team.</span></li>
 					</ul>
-					<p>Tools and technologies: WordPress, XML, HTML/CSS, PHP & MYSQL, jQuery, Ajax,Sublime,Photoshop, Bootstraps, SASS.</p>
+					<p>Tools and technologies: WordPress, XML, HTML/CSS, PHP & MYSQL, jQuery, Ajax,Sublime,Photoshop, Bootstraps, Sass.</p>
 					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrojobEngine theme.</p>
 				</div>
 				<div class="item">
@@ -88,7 +88,7 @@ require_once('functions.php');
 					<ul>
 						<li><span>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS).</span></li>
 						<li><span>Convert PSD file to HTML/CSS template.</li>
-						<li><span>Customize  PHP WordPress/Woocommerce and support customer.</span></li>
+						<li><span>Customize  PHP WordPress/Woocommerce and support customers.</span></li>
 					</ul>
 				</div>
 			</div>
@@ -107,9 +107,9 @@ require_once('functions.php');
 				<ul>
 					<li><span>Proficiency in OOP with a good understanding of MVC practices.</span></li>
 					<li><span>Strong knowledge of RESTful Web Services and JSON.</span></li>
-					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and SASS skills.</span></li>
+					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and Sass.</span></li>
 					<li><span>Good to debug and solve PHP/WordPress problems. </span></li>
-					<li><span>Experience to implement a payment gateway(PayPal/Stripe...),escrow API.</span></li>
+					<li><span>Experience to implement a payment gateway(PayPal/Stripe...), escrow API.</span></li>
 </ul>
 		</div>
 	</div>
