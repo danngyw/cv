@@ -72,14 +72,14 @@ require_once('functions.php');
 					<p> Jun 2013 - Present</p>
 					<p> EngineThemes is a WordPress application theme creator.</p>
 					<ul>
-						<li><span>Develop, maintenance WordPress themes and plugins.</span></li>
+						<li><span>Develop  WordPress themes and plugins and maintain.</span></li>
 						<li><span>Implement payment gateway for system.</span></li>
 						<li><span>Using git to deploy and manage source code.</span></li>
-						<li><span>Technical support - work directly with customer via email and help them solve problems. Customize themes or plugins.</span></li>
-						<li><span>Conduct internal training for developers within team.</span></li>
+						<li><span>Technical support - work directly with customers via email and help them solve problems. Customize themes or plugins.</span></li>
+						<li><span>Conduct internal training for developers within the team.</span></li>
 					</ul>
 					<p>Tools and technologies: WordPress, XML, HTML/CSS, PHP & MYSQL, jQuery, Ajax,Sublime,Photoshop, Bootstraps, SASS.</p>
-					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrjobEngine theme.</p>
+					<p><span class="key-achievement "> Key achievement:</span> FreelanceEngine theme, MicrojobEngine theme.</p>
 				</div>
 				<div class="item">
 					<label class="sub-label"> PHP/WordPress Developer at Goscom - Ho Chi Minh City</label>
