@@ -88,7 +88,7 @@ require_once('functions.php');
 					<ul>
 						<li><span>Experience with Xampp (Linux, Apache, MySQL, PHP, HTML/CSS).</span></li>
 						<li><span>Convert PSD file to HTML/CSS template.</li>
-						<li><span>Customize  PHP WordPress/woocommerce and support customer.</span></li>
+						<li><span>Customize  PHP WordPress/Woocommerce and support customer.</span></li>
 					</ul>
 				</div>
 			</div>
