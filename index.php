@@ -63,7 +63,7 @@ require_once('functions.php');
 		<div class="col-9 col-right col-content">
 			<div class="line">
 				<h3 class="label"> Profile </h3>
-				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by developing WordPress themes and plugins. Extensive experience in payment API work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
+				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by developing WordPress themes and plugins. Extensive experience in payment API work and how to implement it. Experience in technical support and can handle almost WordPress,PHP popular issues.</p>
 			</div>
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
@@ -109,7 +109,7 @@ require_once('functions.php');
 					<li><span>Strong knowledge of RESTful Web Services and JSON.</span></li>
 					<li><span>Excellent PHP & MySQL, JavaScript, Bootstraps and Sass.</span></li>
 					<li><span>Good to debug and solve PHP/WordPress problems. </span></li>
-					<li><span>Experience to implement a payment gateway(PayPal/Stripe...), escrow API.</span></li>
+					<li><span>Experience to implement payment gateway/escrow API(PayPal/Stripe...).</span></li>
 </ul>
 		</div>
 	</div>
