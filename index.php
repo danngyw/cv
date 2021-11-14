@@ -63,7 +63,7 @@ require_once('functions.php');
 		<div class="col-9 col-right col-content">
 			<div class="line">
 				<h3 class="label"> Profile </h3>
-				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by development WordPress themes and plugins. Extensive experience in payment API work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
+				<p>Around 8+ years of extensive experience as a PHP Web Application Developer by developing WordPress themes and plugins. Extensive experience in payment API work and how to implement it. Experience in technical support and can handle almost WordPress,PHP or Hosting issues.</p>
 			</div>
 			<div class="line">
 				<h3 class="label"> Employment History</h3>
